@@ -44,6 +44,6 @@ class ExtratoActivity : AppCompatActivity() {
     }
 
     fun Operacao_ToStr(operacao: Operacao): String {
-        return "${operacao.tipo} | ${operacao.descricao}  | ${"%.2f".format(operacao.valor)}"
+        return "${operacao.tipo} | ${operacao.descricao}  | R$: ${"%.2f".format(operacao.valor)}"
     }
 }
